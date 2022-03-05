@@ -5,10 +5,22 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Sensitivity_adapter</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
+    <Authors>CroakFang</Authors>
+    <Company>CroakStudio</Company>
+    <PackageIcon>cropped-Logo.png</PackageIcon>
+    <PackageIconUrl />
+    <ApplicationIcon>a7lzw-8ehfb-001.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="MouseKeyHook" Version="5.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="cropped-Logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
